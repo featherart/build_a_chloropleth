@@ -1,5 +1,5 @@
 class MapsController < ApplicationController
   def index
-  	#@maps = Map.all
+  	# no methods required!
   end
 end
