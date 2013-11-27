@@ -1,5 +1,5 @@
 $(function() {
-
+	console.log("loading map");
 	var height = 300;
 	var width = 350;
 

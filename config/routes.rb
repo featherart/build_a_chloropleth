@@ -1,6 +1,6 @@
 Chloropleth::Application.routes.draw do
-  get "maps/index"
-
+  root to: 'nymaps#index'
+  resources :nymaps
   resources :maps
-  root to: 'maps#index'
+  
 end
